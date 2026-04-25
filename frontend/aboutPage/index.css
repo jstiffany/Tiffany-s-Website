@@ -4,13 +4,76 @@
 
 .aboutmeHeader {
     background-color: rgb(255, 245, 245);
+    box-shadow: 0px 0px 20px rgb(255, 148, 148);
 
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
 
+    margin: 100px auto;
+    padding: 100px 0px;
+
+    max-width: 1000px;
+
+    border-radius: 20px;
 }
 
 .aboutmeTexts {
-    text-align: center;
+    line-height: 0.2;
+
+    font-size: 25px;
+    color: rgb(249, 178, 178);
+}
+
+.aboutheaderTitle {
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    line-height: 0.5;
+}
+
+.aboutheaderDesc {
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.aboutheaderButtons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+    margin-top: 15px;
+}
+
+.aboutButton, .skillsButton, .contactButton {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    background-color: rgb(255, 219, 219);
+    border: 8px solid rgb(249, 178, 178);
+    border-radius: 50px;
+
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+
+    font-size: 35px;
+    padding: 15px 15px;
+}
+
+#activeButton {
+    background-color: rgb(249, 178, 178);
+    border: 8px solid rgb(255, 148, 148);
 }
 
 /** BODY **/
