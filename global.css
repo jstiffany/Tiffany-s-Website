@@ -40,36 +40,3 @@ body::-webkit-scrollbar {
 
     color: rgb(236, 127, 169);
 }
-
-/** SECTION CONTENT **/
-
-.aboutDesc {
-    list-style: none;
-
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 36px;
-
-    color: rgb(190, 89, 133);
-
-    background-color: rgb(255, 184, 224);
-    padding: 25px 25px;
-}
-
-.skillsDesc {
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 36px;
-
-    color: rgb(190, 89, 133);
-
-    background-color: rgb(255, 184, 224);
-    padding: 25px 25px;
-}
-
-li:not(.certs) {
-    margin-bottom: 25px;
-}
-
