@@ -1,0 +1,75 @@
+/** FONTS **/
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+/** OTHER **/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/** HEADER **/
+
+.globalHeader {
+    display: flex;
+}
+
+.globalTitle, .aboutTitle, .skillsTitle {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+
+    color: rgb(190, 89, 133);
+}
+
+.globalDesc {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+    color: rgb(236, 127, 169);
+}
+
+/** SECTION CONTENT **/
+
+.aboutDesc {
+    list-style: none;
+
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+
+    color: rgb(190, 89, 133);
+
+    background-color: rgb(255, 184, 224);
+    padding: 25px 25px;
+}
+
+.skillsDesc {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+
+    color: rgb(190, 89, 133);
+
+    background-color: rgb(255, 184, 224);
+    padding: 25px 25px;
+}
+
+li:not(.certs) {
+    margin-bottom: 25px;
+}
+
