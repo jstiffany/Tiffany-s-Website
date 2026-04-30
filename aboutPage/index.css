@@ -1,6 +1,17 @@
 /** SECTION CONTENT **/
 
-.aboutDesc {
+.aboutTitle, .skillsTitle {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+
+    color: rgb(190, 89, 133);
+
+    margin: 0;
+}
+
+.aboutDesc, .skillsDesc {
     list-style: none;
 
     font-family: "Concert One", sans-serif;
@@ -11,19 +22,19 @@
     color: rgb(190, 89, 133);
 
     background-color: rgb(255, 184, 224);
-    padding: 25px 25px;
+    padding: 30px 40px;
+
+    border-radius: 50px;
+
+    box-shadow: 0px 0px 25px rgb(0, 0, 0, 0.3);
+}
+
+.aboutDesc {
+    max-width: 45rem;
 }
 
 .skillsDesc {
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 36px;
-
-    color: rgb(190, 89, 133);
-
-    background-color: rgb(255, 184, 224);
-    padding: 25px 25px;
+    max-width: 25rem;
 }
 
 li:not(.certs) {

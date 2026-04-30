@@ -1,0 +1,44 @@
+/** SECTION CONTENT **/
+
+.contactSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 55px;
+}
+
+.contactInfo {
+    background-color: rgb(255, 184, 224);
+
+    border-radius: 50px;
+
+    box-shadow: 0px 0px 25px rgb(0, 0, 0, 0.3);
+
+    padding: 50px 50px;
+
+    max-width: 80rem;
+}
+
+.myName, .contactDesc {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    color: rgb(190, 89, 133);
+
+    margin-left: 20px;
+}
+
+.myName {
+    font-size: 70px;
+}
+
+.contactDesc {
+    list-style: none;
+    font-size: 30px;
+
+    margin-left: -15px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
